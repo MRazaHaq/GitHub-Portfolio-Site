@@ -1,0 +1,54 @@
+site_name: Mohsin AI Portfolio
+site_description: A showcase of Mohsin's projects in Data Science, AI, and Machine Learning.
+site_url: https://yourusername.github.io/your-repo-name/
+
+theme:
+  name: material  # Make sure Material theme is installed
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black     # Navbar background in light mode
+      accent: pink       # Accent color for buttons, links
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black     # Navbar background in dark mode
+      accent: pink
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Projects:
+      - Machine Learning: projects/machine-learning.md
+      - Deep Learning: projects/deep-learning.md
+      - NLP: projects/nlp.md
+      - Data Visualization: projects/data-visualization.md
+  - Skills: skills.md
+  - Certifications: certifications.md
+  - Achievements: achievements.md
+  - Resume: resume.md
+  - Contact: contact.md
+
+extra_css:
+  - stylesheets/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourprofile
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/yourprofile
