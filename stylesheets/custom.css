@@ -1,0 +1,9 @@
+/* Change the header/nav bar background color */
+.md-header {
+  background-color: #1c1c1c !important;  /* Replace with your desired color */
+}
+
+/* Optional: Change nav link colors */
+.md-header__title, .md-tabs__link {
+  color: #ffffff !important;  /* Text color (white) */
+}
